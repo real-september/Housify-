@@ -2,6 +2,7 @@ from . import db
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
 from .models import User
+from flask_login import login_user, login_required, logout_user, current_user
 
 auth = Blueprint('auth', __name__)
 
@@ -12,20 +13,28 @@ def login():
         password = request.form.get('password')
         
         user = User.query.filter_by(email=email).first()
-        if user and user.password:
+        if user:
             if check_password_hash(user.password, password):
                 flash('Logged in successfully!', category='success')
+                login_user(user, remember=True)
+                return redirect(url_for('views.home'))
             else:
                 flash('Incorrect password', category='error')
         else:
             flash('User does not exist', category='error')
 
 
-    return render_template("login.html", boolean = True)
+    return render_template("login.html", user=current_user)
 
 @auth.route('/logout')
+@login_required
 def logout():
-    return "<p>Logout</p>"
+    logout_user()
+    return redirect(url_for('auth.login'))
+
+@auth.route('/view_details')
+def view_details():
+    return "<p>Details</p>"
 
 @auth.route('/sign-up', methods=['GET', 'POST'])
 def sign_up():
@@ -47,11 +56,16 @@ def sign_up():
         elif len(password1) < 7:
             flash('Minimum password length is 7', category='error')
         else:
-            new_User = User(email=email, first_name=first_name, password = generate_password_hash(password1, method='pbkdf2:sha256'))
+            new_User = User(
+                email=email, 
+                first_name=first_name,
+                password = generate_password_hash(password1, method='pbkdf2:sha256')
+                )
             db.session.add(new_User)
             db.session.commit()
+            login_user(new_User, remember=True)
             flash('Account created !', category='success')
             return redirect(url_for('views.home'))
             
 
-    return render_template("sign_up.html")
+    return render_template("sign_up.html", user=current_user)
