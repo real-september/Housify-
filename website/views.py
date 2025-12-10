@@ -4,7 +4,7 @@ import pandas as pd
 
 # importing dataset for housing prices
 def load_data():
-    path_to_file = "/Users/yashmac/Documents/WebApp (Python)/website/data/housing_dataset.csv"
+    path_to_file = "website/data/housing_dataset.csv"
     housing = pd.read_csv(path_to_file)
 
     return housing.to_dict(orient='records')
