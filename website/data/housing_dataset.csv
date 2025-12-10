@@ -1,0 +1,100 @@
+Listing_ID,location,size,area,price,status,Property_Type,age
+1,Sector 15,3,3997,92.46,Unfurnished,Villa,2
+2,Palam Vihar,4,3111,245.92,Unfurnished,Builder Floor,12
+3,MG Road,3,4020,188.51,Unfurnished,Apartment,12
+4,Sector 49,3,2394,176.63,Unfurnished,Villa,17
+5,Sector 23,1,1259,584.89,Fully-Furnished,Villa,19
+6,Sector 15,3,3411,260.13,Fully-Furnished,Builder Floor,7
+7,Udyog Vihar,5,3602,539.55,Unfurnished,Apartment,8
+8,Sector 49,3,2555,393.44,Semi-Furnished,Apartment,6
+9,Sector 49,1,3050,485.09,Unfurnished,Villa,0
+10,DLF Phase 4,5,1969,321.48,Fully-Furnished,Apartment,2
+11,Sector 23,2,2586,363.07,Fully-Furnished,Villa,12
+12,DLF Phase 3,3,2134,315.81,Semi-Furnished,Apartment,16
+13,DLF Phase 2,1,746,149.34,Fully-Furnished,Villa,0
+14,Sector 54,2,3819,444.57,Unfurnished,Apartment,5
+15,Sector 14,2,3511,197.23,Semi-Furnished,Builder Floor,5
+16,DLF Phase 2,4,2334,53.62,Unfurnished,Apartment,11
+17,DLF Phase 1,5,2443,401.46,Unfurnished,Apartment,12
+18,Sector 54,3,1088,139.18,Semi-Furnished,Builder Floor,12
+19,Sector 54,1,3576,566.66,Unfurnished,Apartment,14
+20,Sohna Road,4,2559,574.2,Fully-Furnished,Builder Floor,15
+21,Sector 46,5,2263,552.32,Unfurnished,Apartment,10
+22,Golf Course Road,4,3198,247.29,Semi-Furnished,Villa,4
+23,MG Road,5,2985,48.66,Semi-Furnished,Villa,3
+24,MG Road,5,3519,559.86,Semi-Furnished,Apartment,2
+25,Udyog Vihar,3,1240,279.78,Unfurnished,Apartment,18
+26,Sector 54,5,2402,581.33,Semi-Furnished,Apartment,19
+27,Palam Vihar,4,3120,579.63,Semi-Furnished,Villa,17
+28,DLF Phase 3,5,2569,517.69,Unfurnished,Apartment,14
+29,DLF Phase 5,3,2798,204.89,Fully-Furnished,Villa,8
+30,Udyog Vihar,3,2038,255.65,Unfurnished,Builder Floor,16
+31,Sector 15,4,3969,516.64,Semi-Furnished,Villa,13
+32,Sector 29,2,2234,217.48,Semi-Furnished,Villa,14
+33,Sector 15,2,862,134.92,Unfurnished,Builder Floor,0
+34,Cyber City,5,2387,351.81,Fully-Furnished,Villa,2
+35,DLF Phase 4,1,2791,564.25,Semi-Furnished,Apartment,15
+36,Sector 57,5,2993,429.78,Semi-Furnished,Apartment,10
+37,Cyber City,4,1223,359.23,Semi-Furnished,Villa,11
+38,Sector 29,4,1616,94.42,Unfurnished,Apartment,9
+39,DLF Phase 2,4,4243,384.4,Semi-Furnished,Villa,15
+40,Palam Vihar,4,1480,594.43,Fully-Furnished,Apartment,7
+41,MG Road,4,2649,118.45,Semi-Furnished,Apartment,5
+42,Sector 15,3,3544,330.26,Semi-Furnished,Villa,11
+43,Sector 54,2,1927,531.33,Fully-Furnished,Apartment,7
+44,Sector 23,4,2901,454.83,Semi-Furnished,Villa,3
+45,MG Road,1,4323,430.33,Unfurnished,Apartment,7
+46,DLF Phase 3,1,1052,433.39,Unfurnished,Apartment,17
+47,Sector 57,1,3708,241.32,Unfurnished,Builder Floor,4
+48,Sohna Road,1,1783,204.41,Fully-Furnished,Builder Floor,8
+49,DLF Phase 4,3,3662,493.24,Semi-Furnished,Villa,3
+50,Cyber City,1,2656,493.66,Unfurnished,Builder Floor,16
+51,Sector 23,4,3904,525.56,Fully-Furnished,Villa,8
+52,DLF Phase 4,5,3770,551.41,Semi-Furnished,Builder Floor,0
+53,DLF Phase 2,1,2282,326.35,Fully-Furnished,Apartment,19
+54,Sector 14,3,3463,320.85,Unfurnished,Villa,12
+55,Sector 46,3,2855,487.05,Unfurnished,Villa,15
+56,DLF Phase 4,1,1754,403.98,Unfurnished,Apartment,12
+57,Cyber City,5,1003,433.1,Fully-Furnished,Villa,13
+58,Sector 54,1,2799,485.64,Fully-Furnished,Villa,2
+59,DLF Phase 2,3,2701,538.4,Unfurnished,Builder Floor,5
+60,Sector 46,2,3791,229.28,Fully-Furnished,Villa,17
+61,DLF Phase 4,4,2296,250.33,Unfurnished,Apartment,18
+62,Sector 57,3,1227,92.63,Unfurnished,Builder Floor,4
+63,Golf Course Road,1,1186,363.84,Semi-Furnished,Builder Floor,14
+64,MG Road,4,2248,60.13,Fully-Furnished,Apartment,1
+65,Sector 23,1,2043,300.73,Unfurnished,Apartment,9
+66,Sector 57,1,2045,343.88,Unfurnished,Builder Floor,17
+67,Sector 23,2,703,200.46,Fully-Furnished,Villa,12
+68,Golf Course Road,4,853,370.87,Semi-Furnished,Builder Floor,4
+69,Sector 56,4,3898,57.08,Semi-Furnished,Apartment,0
+70,Cyber City,2,3783,60.91,Unfurnished,Builder Floor,0
+71,MG Road,3,3157,500.66,Fully-Furnished,Apartment,17
+72,Sector 56,1,2096,241.71,Semi-Furnished,Builder Floor,14
+73,Sector 29,5,698,111.15,Fully-Furnished,Villa,16
+74,MG Road,1,2800,332.46,Fully-Furnished,Builder Floor,10
+75,Sector 56,1,2484,471.2,Unfurnished,Builder Floor,16
+76,DLF Phase 1,3,3561,160.86,Semi-Furnished,Apartment,12
+77,Sector 15,1,2519,388.82,Unfurnished,Apartment,0
+78,Sector 29,2,1477,87.79,Semi-Furnished,Apartment,1
+79,DLF Phase 1,2,937,68.94,Semi-Furnished,Builder Floor,8
+80,Sector 54,4,4377,337.56,Semi-Furnished,Villa,2
+81,Sector 23,5,3469,342.76,Semi-Furnished,Apartment,0
+82,Sector 49,1,3834,396.96,Semi-Furnished,Apartment,15
+83,Udyog Vihar,1,4391,446.61,Fully-Furnished,Builder Floor,5
+84,Sohna Road,3,1556,586.48,Unfurnished,Apartment,16
+85,Sector 23,2,2304,329.13,Fully-Furnished,Villa,4
+86,DLF Phase 3,5,760,220.86,Semi-Furnished,Villa,4
+87,DLF Phase 3,4,2203,485.3,Unfurnished,Apartment,5
+88,DLF Phase 1,2,3448,191.67,Semi-Furnished,Apartment,2
+89,DLF Phase 5,4,997,285.82,Unfurnished,Builder Floor,4
+90,Sector 46,3,1900,83.94,Fully-Furnished,Villa,4
+91,Sector 15,3,1415,54.2,Unfurnished,Villa,9
+92,Sector 29,1,2127,579.08,Unfurnished,Apartment,9
+93,Sector 15,5,2519,508.15,Unfurnished,Builder Floor,18
+94,Sector 29,4,2015,429.75,Unfurnished,Villa,16
+95,Sector 23,2,1758,269.01,Unfurnished,Villa,13
+96,Sector 54,3,1818,137.04,Semi-Furnished,Builder Floor,8
+97,DLF Phase 2,1,1000,127.6,Unfurnished,Builder Floor,13
+98,DLF Phase 1,1,1239,180.14,Unfurnished,Villa,0
+99,Golf Course Road,4,3704,347.57,Fully-Furnished,Villa,18
